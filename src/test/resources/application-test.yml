@@ -1,0 +1,7 @@
+r2dbc:
+  datasources:
+    default:
+      dialect: POSTGRES
+      url: r2dbc:postgresql://localhost:5432/test
+      username: test_user
+      password: test_password
